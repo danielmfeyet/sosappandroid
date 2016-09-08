@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text="Envoyer Une Alerte en   Un Click "
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <!-- Name Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <!-- Name Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <!-- Name Label -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_inc"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/circle_incendi"
+            android:drawableTop="@android:drawable/ic_dialog_email"
+            android:paddingTop="20dp"
+            android:text="Incendie"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle_accident"
+            android:drawableTop="@android:drawable/ic_dialog_map"
+            android:paddingTop="20dp"
+            android:text="Accident"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/circle_innondation"
+            android:drawableTop="@android:drawable/ic_dialog_info"
+            android:paddingTop="20dp"
+            android:text="Innondation"
+            android:textColor="#fff" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <!-- Name Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text=""
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <!-- Name Label -->
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:text="En Fonction de votre Position, nous informons les organismes les plus proches de vous aptent à reagir à votre alerte"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    <!-- Name Label -->
+
+</LinearLayout>
